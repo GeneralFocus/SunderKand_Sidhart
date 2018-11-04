@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.unifyconcept.sidhartproject.MainActivity"
+    android:background="@drawable/rback">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/iv_type"
+        android:textColor="@color/whiteFore"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnOrange"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="40sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="95dp"
+        android:background="@drawable/poster1" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:layout_alignEnd="@+id/btnOrange"
+        android:layout_alignStart="@+id/btnOrange"
+        android:layout_below="@+id/btnOrange"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/poster1" />
+
+</RelativeLayout>

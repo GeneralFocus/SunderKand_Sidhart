@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sunderkand</string>
+    <string name="iv_type">Select Preferred Invitation Card Layout</string>
+    <string name="hint_name">Enter Guest Name</string>
+    <string name="hint_date">Enter Festive Date</string>
+    <string name="hint_time">Enter Time e.g 7:00pm</string>
+    <string name="hint_address">Enter Address</string>
+    <string name="guest_details">Fill Event Information</string>
+</resources>
