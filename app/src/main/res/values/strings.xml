@@ -6,4 +6,9 @@
     <string name="hint_time">Enter Time e.g 7:00pm</string>
     <string name="hint_address">Enter Address</string>
     <string name="guest_details">Fill Event Information</string>
+    <string name="join_us">इस साल मनाते हुए हमसे जुड़ें</string>
+    <string name="diwali_festival">दिवाली त्यौहार</string>
+    <string name="date">दिनांक</string>
+    <string name="time">टी...</string>
+    <string name="address">पता</string>
 </resources>

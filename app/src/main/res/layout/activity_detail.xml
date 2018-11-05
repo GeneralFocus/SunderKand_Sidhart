@@ -88,7 +88,8 @@
             <Button
                 android:layout_width="150sp"
                 android:layout_height="50sp"
-                android:text="Preview"
+                android:text="Reset"
+                android:onClick="reset"
                 android:layout_weight="1"
                 android:background="@drawable/text"/>
             <View
@@ -100,6 +101,7 @@
                 android:layout_width="150sp"
                 android:layout_height="50sp"
                 android:text="Preview"
+                android:onClick="preview"
                 android:layout_weight="1"
                 android:background="@drawable/text"/>
         </LinearLayout>

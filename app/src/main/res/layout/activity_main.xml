@@ -26,7 +26,8 @@
         android:layout_marginRight="40sp"
         android:layout_marginLeft="40sp"
         android:layout_marginTop="95dp"
-        android:background="@drawable/poster1" />
+        android:background="@drawable/poster1"
+        android:onClick="iv1_click"/>
 
     <Button
         android:id="@+id/button"
@@ -36,6 +37,7 @@
         android:layout_alignStart="@+id/btnOrange"
         android:layout_below="@+id/btnOrange"
         android:layout_marginTop="35dp"
-        android:background="@drawable/poster1" />
+        android:background="@drawable/poster1"
+        android:onClick="iv2_click"/>
 
 </RelativeLayout>
