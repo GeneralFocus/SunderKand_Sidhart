@@ -68,6 +68,7 @@ public class PhotoActivity extends AppCompatActivity {//implements OnClickListen
             } catch (Exception e) {
             }
             finish();
+
         }
     }
 }
